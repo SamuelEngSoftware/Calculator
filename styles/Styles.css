@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,21 @@
 }
 
 
+
 body {
     background-image: url(/assets/background\ calculadora.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: cover; 
+    background-position: center; 
 }
 
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .calculator {
     background-color: #5a5a5a;
     padding: 20px;
@@ -34,7 +44,7 @@ body {
     transition: all 500ms;
 }
 
-.calculator form input:hover {
+.calculator form input:hover{
     box-shadow: none;
 }
 
@@ -58,3 +68,5 @@ form input.equals {
 form input.operator {
     color: rgb(253, 197, 93);
 }
+
+
