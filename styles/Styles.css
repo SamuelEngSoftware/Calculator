@@ -9,7 +9,7 @@
 
 
 body {
-    background-image: url(/assets/background-calculadora.png);
+    background-image: url(../assets/background-calculadora.png);
     background-size: cover; 
     background-position: center; 
 }
